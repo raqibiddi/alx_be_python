@@ -12,12 +12,12 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input(str("What item would you like to add? \n")) # Prompt for and add an item
+            item = input("Enter the item to add: \n") # Prompt for and add an item
             pass
             shopping_list.append(item)
             print(f"{item} has been added to the shopping list.")
         elif choice == '2':
-            item = input(str("What item would you like to remove? \n"))# Prompt for and remove an item
+            item = input(str("Enter the item to remove? \n"))# Prompt for and remove an item
             pass
             if item not in shopping_list:
                 print("Item is not found in the shopping list.")
